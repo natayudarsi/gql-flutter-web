@@ -14,20 +14,20 @@ import 'package:reverse_test/domain/employee/repository/employee_repository.dart
 class EmployeeRepositoryImpl implements EmployeeRepository {
   final EmployeeGqlDatasource employeeDatasource;
   // final EmployeeGqlDatasource employeeGqlDatasource;
-  final NetworkCheck networkCheck;
+  // final NetworkCheck networkCheck;
 
   EmployeeRepositoryImpl({
     @required this.employeeDatasource,
-    @required this.networkCheck,
+    // @required this.networkCheck,
   });
 
   @override
   Future<EmployeeEntity> getEmployeeByEmail({@required String email}) async {
-    if (await networkCheck.isOnline()) {
+    // if (await networkCheck.isOnline()) {
       final employee = await employeeDatasource.getEmployee(email: email);
       return employee;
-    } else {
-      throw NoConnectionError();
-    }
+    // } else {
+    //   throw NoConnectionError();
+    // }
   }
 }
