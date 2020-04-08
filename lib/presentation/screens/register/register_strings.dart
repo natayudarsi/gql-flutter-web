@@ -1,0 +1,31 @@
+class RegisterStrings {
+  static const continueScene = 'Continue';
+  static const iconFemale = 'assets/images/female.svg';
+  static const iconFemaleChoosen = 'assets/images/chosen-female.svg';
+  static const iconKitas = 'assets/images/kitas.svg';
+  static const iconKitasChoosen = 'assets/images/choosen-kitas.svg';
+  static const iconKtp = 'assets/images/ktp.svg';
+  static const iconKtpChoosen = 'assets/images/choosen-ktp.svg';
+  static const iconMale = 'assets/images/male.svg';
+  static const iconMaleChoosen = 'assets/images/chosen-male.svg';
+  static const imageSceneOne = 'assets/images/scene-1.png';
+  static const imageSceneTwo = 'assets/images/scene-2.png';
+  static const imageSceneThree = 'assets/images/scene-3.png';
+  static const labelTextName = 'so what\'s your name?';
+  static const loading = 'assets/images/loading.gif';
+  static const stringBirthplace = 'Birthplace';
+  static const stringError = 'Something went wrong!';
+  static const stringFemale = 'Women';
+  static const stringGreat = 'Great! Now could you please tell us where and when you born?';
+  static const stringMale = 'Man';
+  static const stringHi = 'Hi,';
+  static const stringYear = 'in Year';
+  static const stringMonth = 'Month';
+  static const stringDay = 'Day';
+  static const stringWNA = 'WNA';
+  static const stringWNI = 'WNI';
+  static const stringGenderIntro = 'And what\'s your gender?';
+  static const stringThatsCool = 'That\'s a cool name!';
+  static const stringAndImA = 'and I am a';
+  static const whoRU = 'Who are you?';
+}
